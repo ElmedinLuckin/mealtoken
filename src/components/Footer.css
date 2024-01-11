@@ -1,0 +1,29 @@
+.footer {
+  background-color: #222831;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  width: 100%;
+  text-align: center;
+
+  padding-top: 6rem;
+  clip-path: polygon(0 26%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.footer-item {
+  margin-bottom: 2rem;
+
+  margin-top: 2rem;
+}
+
+.footer h2 {
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}

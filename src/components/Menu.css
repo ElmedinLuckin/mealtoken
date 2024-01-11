@@ -1,0 +1,27 @@
+#menu {
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+#menu h2 {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+#menu ul {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+#menu ul li {
+  list-style-type: none;
+}

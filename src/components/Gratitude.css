@@ -1,0 +1,26 @@
+.gratitude {
+  padding: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.gratitude h2 {
+  font-size: 2rem;
+  font-family: "Dancing Script", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.gratitude p {
+  font-family: "Open Sans", sans-serif;
+
+  margin-bottom: 1.5rem;
+}
+
+.gratitude button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffbe33;
+  color: #fff;
+  cursor: pointer;
+}

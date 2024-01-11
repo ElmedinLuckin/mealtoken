@@ -1,0 +1,79 @@
+.cart {
+  padding: 2rem;
+  border: none;
+  border-radius: 6px;
+  width: 90%;
+
+  @media only screen and (min-width: 600px) {
+    width: 70%;
+  }
+
+  @media only screen and (min-width: 800px) {
+    width: 50%;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    width: 35%;
+  }
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 1rem;
+}
+
+.cart ul {
+  list-style-type: none;
+  margin-bottom: 1rem;
+  max-height: 15rem;
+  overflow-y: scroll;
+}
+
+.cart ul::-webkit-scrollbar {
+  display: none;
+}
+
+.total-price {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0.5rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.button-close {
+  border: none;
+  padding: 0.5rem 0.7rem;
+  margin-right: 0.3rem;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-close:hover {
+  background-color: #1f1f1f;
+}
+
+.button-checkout {
+  border: none;
+  background-color: #ffbe33;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-checkout:hover {
+  background-color: #db9909;
+}

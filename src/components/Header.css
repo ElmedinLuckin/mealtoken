@@ -1,0 +1,102 @@
+#header {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("../assets/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+
+  @media only screen and (min-width: 600px) {
+    padding: 0 3rem;
+  }
+
+  @media only screen and (min-width: 800px) {
+    padding: 0 5rem;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    padding: 0 8rem;
+  }
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.4rem 2rem;
+  color: #fff;
+}
+
+.fa-shopping-cart {
+  font-size: 28px;
+  cursor: pointer;
+  position: relative;
+}
+
+.fa-shopping-cart-header {
+  padding-right: 1rem;
+}
+
+.fa-shopping-cart:hover {
+  color: #ffc107;
+}
+
+.cart-quantity {
+  color: #fff;
+  background-color: red;
+  font-size: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 4rem;
+  left: 1.2rem;
+  top: -0.3rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header-logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  padding: 6rem 2rem;
+}
+
+.header-content h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 1rem;
+}
+
+.header-content p {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 2rem;
+  white-space: pre-line;
+}
+
+.header-content button {
+  display: inline-block;
+  width: 11rem;
+  padding: 10px 45px;
+  background-color: #ffbe33;
+  color: #ffff;
+  border-radius: 45px;
+  border: none;
+  font-size: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.header-content button:hover {
+  background-color: #db9909;
+}

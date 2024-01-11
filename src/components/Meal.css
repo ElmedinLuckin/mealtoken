@@ -1,0 +1,79 @@
+.meal-item {
+  gap: 1rem;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #222831;
+  transition: all 0.1s ease-in-out;
+  box-shadow: -2px 21px 21px -16px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 21px 21px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 21px 21px -16px rgba(0, 0, 0, 0.75);
+  border: none;
+}
+
+.meal-item:hover {
+  transform: scale(1.03);
+}
+
+.meal-content {
+  color: #fff;
+  width: 100%;
+  text-align: left;
+
+  background-color: #222831;
+  padding: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.meal-content h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.meal-img img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  border-end-start-radius: 35px;
+  border: none;
+}
+
+.meal-price {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.meal-price__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meal-button {
+  margin-top: 10px;
+  font-size: 1rem;
+
+  font-weight: 500;
+  line-height: 1.2;
+  background-color: #ffbe33;
+  border-radius: 50%;
+  padding: 0.6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.meal-button i {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.meal-button:hover {
+  background-color: #db9909;
+}
+
+.meal-button i:hover {
+  color: #fff;
+}

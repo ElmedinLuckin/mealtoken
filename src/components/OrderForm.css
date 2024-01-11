@@ -1,0 +1,28 @@
+.order-form {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-form p {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.order-form label {
+  margin-bottom: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+}
+
+.order-form input {
+  margin-bottom: 0.2rem;
+  border: 1px solid #858585;
+  border-radius: 4px;
+  padding: 0.3rem 0.5rem;
+}
+
+.order-form-actions {
+  margin-top: 1rem;
+}
