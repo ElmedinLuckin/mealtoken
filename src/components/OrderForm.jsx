@@ -12,6 +12,10 @@ const OrderForm = () => {
     return acc + curr.price * curr.quantity;
   }, 0);
 
+  const hideOrder = () => {
+    cartCtx.hideForm();
+  };
+
   const hideFormHandle = () => {
     cartCtx.hideForm();
   };
@@ -59,7 +63,7 @@ const OrderForm = () => {
         <label htmlFor="address">Address:</label>
         <input type="text" id="address" name="address" required />
         <div className="order-form-actions">
-          <button type="button" className="button-close">
+          <button onClick={hideOrder} type="button" className="button-close">
             Close
           </button>
           <button className="button-checkout">Order</button>
